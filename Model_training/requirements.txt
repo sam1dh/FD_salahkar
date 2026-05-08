@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+sentence-transformers
+faiss-cpu
+chromadb
+typesense
+langgraph
+docling
+llama-cpp-python
+flask
+flask-cors
+scikit-learn
+rank-bm25

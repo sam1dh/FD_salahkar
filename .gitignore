@@ -1,0 +1,111 @@
+# Environment variables - DO NOT commit
+.env
+.env.local
+.env.*.local
+.env*.json
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Model training artifacts
+Model_training/models/*.gguf
+Model_training/models/*.bin
+Model_training/faiss_store/
+Model_training/output_md/
+Model_training/Data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ML/Data files
+*.pickle
+*.pkl
+*.joblib
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# Large model formats
+*.gguf
+*.safetensors
+*.msgpack
+*.msgpackz
+
+# Database and vector store files
+*.db
+*.sqlite
+*.sqlite3
+*.faiss
+faiss.index
+
+# Large archives
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.rar
+*.7z
+
+# Data directories (often large)
+data/
+Data/
+datasets/
+Datasets/
+*.csv
+*.tsv
+*.parquet
+
+# Cache and temporary files
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
+
+# OS and system files
+.DS_Store
+Thumbs.db
+.env.local.sw*
+*.iml
+
+# IDE extensions
+.vscode/settings.json
+.vscode/launch.json
