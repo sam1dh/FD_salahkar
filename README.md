@@ -1,5 +1,3 @@
-Here is the updated and polished `README.md`. I have corrected the architecture, updated the tech stack to prominently feature **Sarvam AI (TTS)**, **Deepgram (STT)**, and your **Python RAG streaming backend**, and fixed the environment variable instructions.
-
 ---
 
 # FD सलाहकार — Vernacular Voice & Chat FD Advisor
